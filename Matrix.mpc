@@ -1,0 +1,22 @@
+// Assignment 3: Matrix
+project (Matrix) {
+    exename = Matrix
+
+    Source_Files {
+        Csr.cpp
+        Als.cpp
+        main.cpp
+    }  
+    Header_Files {
+        Csr.h
+        Als.h
+    }
+    Inline_Files {
+        Csr.inl
+        Als.inl
+    }
+    specific (make) {
+        compile_flags += -std=c++11
+    }
+
+}

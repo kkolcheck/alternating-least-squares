@@ -1,0 +1,15 @@
+==44004== Memcheck, a memory error detector
+==44004== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==44004== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==44004== Command: ./Matrix train.txt test.txt .5 .5 .5 output.txt
+==44004== Parent PID: 11340
+==44004== 
+==44004== 
+==44004== HEAP SUMMARY:
+==44004==     in use at exit: 0 bytes in 0 blocks
+==44004==   total heap usage: 285 allocs, 285 frees, 5,600 bytes allocated
+==44004== 
+==44004== All heap blocks were freed -- no leaks are possible
+==44004== 
+==44004== For counts of detected and suppressed errors, rerun with: -v
+==44004== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
